@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Status.Domain.Entities
 {
-    public class Flights : BaseEntity
+    public class Flight : BaseEntity
     {
         public string? Origin { get; set; }
 
