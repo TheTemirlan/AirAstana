@@ -10,9 +10,9 @@ namespace Status.Domain.Entities
 {
     public class Flights : BaseEntity
     {
-        public string Origin { get; set; }
+        public string? Origin { get; set; }
 
-        public string Destination { get; set; }
+        public string? Destination { get; set; }
 
         public DateTimeOffset Departure { get; set; }
 

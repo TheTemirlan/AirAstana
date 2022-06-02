@@ -8,7 +8,7 @@ namespace Status.Domain.Entities
 {
     public class Role
     {
-        public string Code { get; set; }
+        public string? Code { get; set; }
 
         public IList<User> Users { get; private set; } = new List<User>();
     }

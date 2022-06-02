@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Status.Domain.Enum
 {
-    public enum Status
+    public enum FlightStatus
     {
         InTime,
         Delayed,
